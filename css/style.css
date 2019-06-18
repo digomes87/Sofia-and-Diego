@@ -1,22 +1,32 @@
-img {
-  max-width: 100%;
+body{
+  background-color: #66CDAA;
 }
 
-
-.center {
+img {
+  max-width: 100%;
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%
 }
+figure, h1{
+  text-align: center;
+}
+
+h3{
+  text-align: center;
+  font-family: cursive;
+}
+
 #img-div {
-  background: white;
+  background: #000000;
   padding: 10px;
   margin: 0;
 }
 
 #img-caption {
   margin: 15px 0 5px 0;
+  text-align: center;
 }
 
 @media (max-width: 460px) {
